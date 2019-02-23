@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import Index from './day6/view_1/index';
+import Index from './day10/router/routerConfig';
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(<Index />, document.getElementById('root'));

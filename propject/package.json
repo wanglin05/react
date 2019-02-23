@@ -116,5 +116,10 @@
     "presets": [
       "react-app"
     ]
+  },
+  "devDependencies": {
+    "axios": "^0.18.0",
+    "mockjs": "^1.0.1-beta3",
+    "react-router-dom": "^4.3.1"
   }
 }
