@@ -44,7 +44,6 @@
     "react-dev-utils": "^7.0.3",
     "react-dom": "^16.8.2",
     "resolve": "1.10.0",
-    "sass-loader": "7.1.0",
     "style-loader": "0.23.1",
     "terser-webpack-plugin": "1.2.2",
     "url-loader": "1.1.2",
@@ -120,6 +119,15 @@
   "devDependencies": {
     "axios": "^0.18.0",
     "mockjs": "^1.0.1-beta3",
-    "react-router-dom": "^4.3.1"
-  }
+    "node-sass": "^4.11.0",
+    "react-native": "^0.58.5",
+    "react-redux": "^6.0.1",
+    "react-router-dom": "^4.3.1",
+    "redux": "^4.0.1",
+    "sass-loader": "^7.1.0"
+  },
+  "rules": {
+        "no-unused-vars": ["error", { "vars": "all", "args": "after-used", "ignoreRestSiblings": false }]
+    },
+    "extends": "eslint:recommended"
 }
